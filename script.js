@@ -4,7 +4,7 @@ class Person {
     this.age = age;
   }
   greet() {
-    return `Hello, my name is ${this.name} and I am ${this.age} years old.`; // Fixed format
+    return `Hello, my name is ${this.name} and I am ${this.age} years old.`; // Fixed output
   }
 }
 
@@ -19,10 +19,10 @@ class Employee extends Person {
 }
 
 const person = new Person("Alice", 25);
-console.log(person.greet()); // Should now match the Cypress test case
+console.log(person.greet()); // ✅ Now matches Cypress expectation
 
 const employee = new Employee("Bob", 30, "Manager");
-console.log(employee.jobGreet()); // Correctly formatted output
+console.log(employee.jobGreet()); // ✅ Already correct
 
 // Do not change code below this line
 window.Person = Person;
