@@ -20,7 +20,7 @@ class Employee extends Person{
 const person = new Person("Alice", 25);
 console.log(person.greet());
 const employee = new Employee("Bob", 30, "Manager");
-console.log(employee.jobGreet());
+console.log(employee.jobGreet()); 
 
 // function Person(name, age) {}
 
