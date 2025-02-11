@@ -4,7 +4,7 @@ class Person {
     this.age = age;
   }
   greet() {
-    return `Hello, my name is ${this.name}, I am ${this.age} years old.`; // Fixed format
+    return `Hello, my name is ${this.name} and I am ${this.age} years old.`; // Fixed format
   }
 }
 
